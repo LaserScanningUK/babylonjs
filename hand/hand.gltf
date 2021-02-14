@@ -1,0 +1,129 @@
+{
+  "asset": {
+    "generator": "BabylonJS",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "hand_data.bin",
+      "byteLength": 7156044
+    }
+  ],
+  "nodes": [
+    {
+      "name": "stlmesh",
+      "mesh": 0,
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "default light",
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3066876,
+      "name": "position - stlmesh",
+      "byteStride": 12,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3066876,
+      "byteOffset": 3066876,
+      "name": "normal - stlmesh",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1022292,
+      "byteOffset": 6133752,
+      "name": "Indices - stlmesh"
+    }
+  ],
+  "accessors": [
+    {
+      "name": "position - stlmesh",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 255573,
+      "type": "VEC3",
+      "min": [
+        -9.755462646484375,
+        -0.10166914761066437,
+        -28.32341194152832
+      ],
+      "max": [
+        23.00737953186035,
+        53.77375793457031,
+        19.87661361694336
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - stlmesh",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 255573,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - stlmesh",
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 255573,
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "default material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      }
+    }
+  ]
+}
